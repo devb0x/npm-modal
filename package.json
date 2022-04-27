@@ -1,6 +1,6 @@
 {
   "name": "devb0x-react-modal",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "keywords": ["react", "components", "modal"],
   "private": false,
   "main": "dist/index.js",
@@ -9,5 +9,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/devb0x/npm-modal"
+  },
+  "scripts": {
+    "build": "rm -rf dist && NODE_ENV=production babel src/lib --out-dir dist --copy-files"
   }
 }
