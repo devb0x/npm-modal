@@ -1,6 +1,6 @@
 {
   "name": "devb0x-react-modal",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "keywords": ["react", "components", "modal"],
   "private": false,
   "main": "dist/index.js",

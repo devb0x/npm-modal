@@ -55,5 +55,6 @@ Modal.propTypes = {
   close: _propTypes.default.func,
   padding: _propTypes.default.string,
   title: _propTypes.default.string,
-  textMessage: _propTypes.default.string
+  textMessage: _propTypes.default.string,
+  closeBtn: _propTypes.default.bool
 };
